@@ -11,8 +11,12 @@ import android.graphics.drawable.Drawable;
 public class NewsBean extends Drawable {
     public String title;
     public String des;
-    public Drawable icon;
     public String news_url;
+    public int id;
+    public int comment;
+    public int type;
+    public String time;
+    public String icon_url;
 
     @Override
     public void draw(Canvas canvas) {

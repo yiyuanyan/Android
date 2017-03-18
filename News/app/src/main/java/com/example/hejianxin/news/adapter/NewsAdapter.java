@@ -58,7 +58,7 @@ public class NewsAdapter extends BaseAdapter {
         TextView item_tv_title = (TextView) view.findViewById(R.id.item_tv_title);
         //获取list这个bean对象下标为position的数据
         NewsBean newsBean = list.get(position);
-        item_img_icon.setImageDrawable(newsBean.icon);
+       // item_img_icon.setImageDrawable(newsBean.icon);
         item_tv_title.setText(newsBean.title);
         item_tv_des.setText(newsBean.des);
         return view;
